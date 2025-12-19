@@ -1,0 +1,47 @@
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('https://cdn.blablacar.com/k/a/images/hero_multimodal-b0d3311152834219.webp');
+    
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 0; 
+}
+
+.banner_title {
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.card_recherche {
+    margin-top: -60px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    
+    background: white;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1); 
+    position: relative;
+    z-index: 10; 
+}
+
+#notification{
+    display:none; 
+    position: fixed; 
+    top: 80px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1000; 
+    width: auto; 
+    min-width: 300px;
+    border-radius: 50px;
+}
